@@ -1,0 +1,9 @@
+ALGS200x - Algorithmic Design and Techniques
+
+This folder contains implementation of algorithmic techniques used for solving various computational problems.
+The main techniques that have been implemented include:
+Greedy algorithms
+Divide-and-Conquer
+Dynamic Programming
+
+These techniques can help in increasing speed of some data science experiments significantly.
