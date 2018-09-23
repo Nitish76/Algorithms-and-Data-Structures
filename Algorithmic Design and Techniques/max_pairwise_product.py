@@ -1,4 +1,7 @@
 # Uses python3
+''' This program computes the product of the two greatest integers
+    in a given set of integers'''
+
 n = int(input())
 a = [int(x) for x in input().split()]
 
