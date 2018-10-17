@@ -1,5 +1,14 @@
 # Uses python3
 import sys
+''' An algorithm to find if a majority element exists in an array using divide-and-conquer'''
+
+''' Input format: The first line contains an integer n, the next one contains a sequence of n non-negative
+integers a0, a1, . . . , an−1.'''
+
+'''Output Format: Output 1 if the sequence contains an element that appears strictly more than n/2 times,
+and 0 otherwise.'''
+
+'''Constraints: 1 <= n <= 10^5, 0 <= ai <= 10^9'''
 
 def maj(a):
     if len(a)==1:
