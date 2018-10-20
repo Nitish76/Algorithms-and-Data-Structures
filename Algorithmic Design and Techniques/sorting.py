@@ -1,6 +1,15 @@
 # Uses python3
 import sys
 import random
+''' An implementation of quick sort (3-way partition) for quickly sorting sequences 
+    even when they contain many equal elements using divide-and-conquer'''
+
+'''Input format: The first line of the input contains an integer n. The next line contains a sequence of n
+integers a0, a1, . . . , an−1'''
+
+''' Constraints: 1 <= n <= 10^5, 1 <= ai <= 10^9'''
+
+'''Output format: Sorted sequence in non-decreasing order'''
 
 def partition3(a, l, r):
     x=a[l];
