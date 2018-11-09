@@ -1,5 +1,13 @@
 # Uses python3
 import sys
+''' A program to solve the money change problem using dynamic programming for the case where
+greedy algorithms don't work. In this problem the money denominations are 1,3 and 4'''
+
+'''Input format: integer money'''
+'''Output format: Minimum number of coins needed to change money'''
+
+'''Constraints: 1<= money <= 10^3'''
+
 
 def get_change(m):
     mincoins = [m+1]*(m+1);
