@@ -1,5 +1,18 @@
 # Uses python3
 import sys
+''' You are given a primitive calculator that can perform the following three operations with
+the current number x: multiply x by 2, multiply x by 3, or add 1 to x. Your goal is given a
+positive integer n, find the minimum number of operations needed to obtain the number n
+starting from the number 1.'''
+
+'''Input format: A single integer n'''
+'''Output format: The first line, outputs the minimum number k of operations needed to get n from 1.
+The second line outputs a sequence of intermediate numbers. That is, the second line contains
+positive integers a0, a2, . . . , ak−1 such that a0 = 1, ak−1 = 𝑛 and for all 0 ≤ i < k − 1, ai+1 is equal to
+either ai + 1, 2ai, or 3ai. If there are many such sequences, any one of them is output.'''
+
+'''Constraint: 1 <= n <= 10^6'''
+
 
 def prim_cal(n):
     if n == 1:
